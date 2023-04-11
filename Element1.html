@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="item"><a href="./Home.html">Home</a></div>
+        <div class="item"><a href="./Element1.html">Page #1</a></div>
+        <div class="item"><a href="./Element2.html">Page #2</a></div>
+        <div class="item"><a href="./Element3.html">Page #3</a></div>
+        <div class="item"><a href="./Element4.html">Page #4</a></div>
+    </div>
+<div class="main-container">
+    <div class="rock-div">
+        <img class="rock" id="rock" src="" alt="rockpic">
+        <img class="eye" id="eyes" src="" alt="eyepic">
+        <img class="hat" id="hat" src="" alt="hatpic">
+    </div>
+        <div><button class="Rbutton" onclick="window.location.href='./Element2.html';"> Next </button></div>
+<div class="options">
+    <div><button class="butt1" onclick="showRock('rock1')"><img class="button-image" src="rock1.png"/></button></div>
+    <div><button class="butt1" onclick="showRock('rock2')"><img class="button-image" src="rock2.png"/></button></div>
+    <div><button class="butt1" onclick="showRock('rock3')"><img class="button-image" src="rock3.png"/></button></div>
+    <div><button class="butt1" onclick="showRock('rock4')"><img class="button-image" src="rock4.png"/></button></div>
+</div>
+<div class="options">
+    <div><button class="butt1" onclick="showRock('rock5')"><img class="button-image" src="rock5.png"/></button></div>
+    <div><button class="butt1" onclick="showRock('rock6')"><img class="button-image" src="rock6.png"/></button></div>
+    <div><button class="butt1" onclick="showRock('rock7')"><img class="button-image" src="rock7.png"/></button></div>
+    <div><button class="butt1" onclick="showRock('rock8')"><img class="button-image" src="rock8.png"/></button></div>
+</div>
+    </div>
+
+    <!-- <div id="popup" class="popupoverlay">
+        <div class="popupcontainer">
+            <div>
+                <h1 style="text-align:center">Step #1: Choose your Rock!</h1>
+            </div>
+            <div class="popupbody">
+                <div>
+                </div>
+                <div class="skiphistory"><button class="skipbutton" onclick="myFunction()">X</button></div>
+                <p class="historytext">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+
+            </div>
+        </div>
+    </div> -->
+
+    <script type="text/javascript" src="./showElement.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("popup");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>

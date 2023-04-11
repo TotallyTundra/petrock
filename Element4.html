@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="item"><a href="./Home.html">Home</a></div>
+        <div class="item"><a href="./Element1.html">Page #1</a></div>
+        <div class="item"><a href="./Element2.html">Page #2</a></div>
+        <div class="item"><a href="./Element3.html">Page #3</a></div>
+        <div class="item"><a href="./Element4.html">Page #4</a></div>
+    </div>
+    <div class="main-container">
+        <div class="rock-div">
+            <img class="rock" id="rock" src="" alt="rockpic">
+            <img class="eye" id="eyes" src="" alt="eyepic">
+            <img class="hat" id="hat" src="" alt="hatpic">
+        </div>
+        <div><button class="Lbutton" onclick="window.location.href='./Element3.html';"> Back </button></div>
+        <div><button class="Rbutton" onclick="window.location.href='./Element4.html';"> Next </button></div>
+        <div class="options">
+            <div><button class="butt1" onclick="showHat('hat1')"><img class="button-image" src="hat1.png"/></button></div>
+            <div><button class="butt1" onclick="showHat('hat2')"><img class="button-image" src="hat2.png"/></button></div>
+            <div><button class="butt1" onclick="showHat('hat3')"><img class="button-image" src="hat3.png"/></button></div>
+            <div><button class="butt1" onclick="showHat('hat4')"><img class="button-image" src="hat4.png"/></button></div>
+        </div>
+            <div class="options">
+            <div><button class="butt1" onclick="showHat('hat5')"><img class="button-image" src="hat5.png"/></button></div>
+            <div><button class="butt1" onclick="showHat('hat6')"><img class="button-image" src="hat6.png"/></button></div>
+            <div><button class="butt1" onclick="showHat('hat7')"><img class="button-image" src="hat7.png"/></button></div>
+            <div><button class="butt1" onclick="showHat('hat8')"><img class="button-image" src="hat8.png"/></button></div>
+            </div>
+    </div>
+
+    <script type="text/javascript" src="./showElement.js"></script>
+</body>
+
+</html>
